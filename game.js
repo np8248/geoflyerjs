@@ -32,7 +32,7 @@ let camX  = 0;
 let att   = 1;
 let particles = [];
 let highScore = 0;
-let P;  // { x, y, vy, rot, dead }
+let P = { x: 120, y: GND / 2 - PSIZ / 2, vy: 0, rot: 0, dead: false };
 
 // ─── INPUT ────────────────────────────────────────────────────────────────────
 let inputDown = false;
